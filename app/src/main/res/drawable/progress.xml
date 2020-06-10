@@ -4,8 +4,8 @@
         android:gravity="center_vertical|fill_horizontal">
         <shape android:shape="rectangle"
             android:tint="@color/colorPrimary">
-            <corners android:radius="24dp"/>
-            <size android:height="24dp" />
+            <corners android:radius="14dp"/>
+            <size android:height="14dp" />
             <solid android:color="@color/colorPrimary" />
         </shape>
     </item>
@@ -18,8 +18,8 @@
                 <item>
                     <shape android:shape="rectangle"
                         android:tint="@color/colorPrimaryDark">
-                        <corners android:radius="24dp"/>
-                        <size android:height="24dp" />
+                        <corners android:radius="14dp"/>
+                        <size android:height="14dp" />
                         <solid android:color="@color/colorPrimaryDark" />
                     </shape>
                 </item>
