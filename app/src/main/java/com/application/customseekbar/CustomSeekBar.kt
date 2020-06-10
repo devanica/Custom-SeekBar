@@ -13,7 +13,6 @@ import android.util.AttributeSet
 import android.widget.SeekBar
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 
-
 @SuppressLint("AppCompatCustomView")
 class CustomSeekBar : SeekBar {
     private val paint: Paint = Paint()
