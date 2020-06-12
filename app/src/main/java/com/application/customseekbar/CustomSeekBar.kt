@@ -25,7 +25,7 @@ class CustomSeekBar : SeekBar {
 
     @Synchronized
     override fun onDraw(canvas: Canvas) {
-        val thumb =
+        val thumbNumber =
             (this.progress.toDouble() / this.max.toDouble()) *
                     (getWidth().toDouble() - (paddingEnd.toDouble()+paddingStart.toDouble()))
 
@@ -33,7 +33,7 @@ class CustomSeekBar : SeekBar {
         paint.setTextSize(50f)
         canvas.drawText(
             progress.toString(),
-            convertToFloat(thumb),
+            convertToFloat(thumbNumber),
             60f,
             paint
         )
