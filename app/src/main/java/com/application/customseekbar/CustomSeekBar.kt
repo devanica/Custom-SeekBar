@@ -29,7 +29,7 @@ class CustomSeekBar : SeekBar {
             (this.progress.toDouble() / this.max.toDouble()) *
                     (getWidth().toDouble() - (paddingEnd.toDouble()+paddingStart.toDouble()))
 
-        paint.setColor(Color.RED)
+        paint.setColor(Color.WHITE)
         paint.setTextSize(50f)
         canvas.drawText(
             progress.toString(),
